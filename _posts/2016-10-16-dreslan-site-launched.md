@@ -1,7 +1,0 @@
----
-layout: post
-title: "Anthony Coppola, Site Launch"
-date: 2016-10-16
----
-
-Finally decided it was time to begin forcing - sharing - my opinions with a broader group of people. If you like this site, it's powered by [Jekyll](http://jekyllrb.com) and I can use markdown to author posts, which means I can begin putting all those hours of writing README files in markdown to practical use.
