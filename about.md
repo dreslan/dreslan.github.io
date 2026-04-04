@@ -34,7 +34,7 @@ My wife and I moved to Atlanta, where I joined Turner/CNN working on a "Transiti
 
 I learned later in life that I had ADHD, and once medicated for it, it's had a profound impact on me. Before, I would get excited about something but never finish anything. Now I've made steady progress on learning post-graduate level physics and math, piano, writing, building a consulting business on the side ([BoxShop.io](https://boxshop.io)), working out with olympic lifts, and various other hobbies.
 
-I'm a big nerd at heart. I love science, I love to debate, I love learning I'm mistaken, I love that moment when something just clicks into place and suddenly makes sense.
+I'm a big nerd at heart. I love science, I love to debate, I love that moment when something just clicks into place and suddenly makes sense.
 
 I love comedy, and while I'm a little comedic myself in person, I'm no standup comic or talk show host, but I do respect them a lot.
 
