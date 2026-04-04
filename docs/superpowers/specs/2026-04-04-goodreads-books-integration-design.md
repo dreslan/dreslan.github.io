@@ -25,8 +25,9 @@ cover: /assets/images/books/cover.jpg  # optional
 Review body in markdown. Empty body = read but not reviewed.
 ```
 
-- `date_read` enables year-based grouping for the reading log
-- Files with no body content are "read but not reviewed" — they appear in the yearly reading log but not in the reviews section
+- **Filename convention**: `<slugified-title>.md` — lowercase, hyphens for spaces, no punctuation (e.g., `the-pragmatic-programmer.md`). No date prefix. This keeps permalink behavior predictable since `:title` in the permalink resolves to the filename stem.
+- `date_read` enables year-based grouping for the reading log. Must be zero-padded ISO 8601 (`YYYY-MM-DD`) for correct sort order.
+- Files with no body content are "read but not reviewed" — they appear in the yearly reading log but not in the reviews section. Detection in Liquid requires `review.content | strip != ""` to handle trailing whitespace.
 - Permalink: `/reviews/:title/`
 
 ### Reading List (`_data/reading_list.yml`)
@@ -45,7 +46,7 @@ No dates, no ratings — just a simple queue.
 
 ### Books Page (`books.md`)
 
-A single root-level page at `/books/` with three sections:
+A single root-level page at `/books/` with `layout: page` and `permalink: /books/`. Three sections:
 
 1. **Reviews** — only entries from `_reviews` that have body content, sorted by `date_read` descending. Each item links to its full review page.
 2. **Read** — all entries from `_reviews` grouped by year (from `date_read`), most recent year first. Entries with reviews link to their review page; entries without reviews show as plain text.
