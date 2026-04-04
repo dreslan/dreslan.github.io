@@ -7,6 +7,11 @@ layout: default
     <time datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date: "%b %d, %Y" }}
     </time>
+    {% if page.last_modified_at %}
+    <time class="post-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+      (updated {{ page.last_modified_at | date: "%b %d, %Y" }})
+    </time>
+    {% endif %}
   </header>
   <div class="post-content">
     {{ content }}

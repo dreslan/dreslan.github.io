@@ -203,6 +203,16 @@ nav a:hover {
   color: var(--text-muted);
 }
 
+.post-updated {
+  margin-left: 0.3rem;
+}
+
+.page-updated {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
 .post-content h2 {
   font-size: 1.3rem;
   color: var(--text-heading);

@@ -16,9 +16,9 @@ In the 1920s, Tony was a common name given to immigrants coming through [Ellis I
 
 ## Growing up
 
-I grew up playing video games - Twisted Metal, Sonic, and eventually computer games like Diablo II. That led me to writing. Like many my age, I loved Harry Potter, but I took it a bit further and started reading all sorts of fiction - Forgotten Realms, Dragonlance, random short stories with wizards - and enjoyed writing in those settings, though I was never consistent enough to make it anything bigger than a hobby.
+I grew up playing video games - Twisted Metal on PlayStation, Sonic the Hedgehog on a Sega Genesis, Pokemon, Mario on a Nintendo, and I can't forget Phantasy Star Online on a Dreamcast - the original online game - dial up! Eventually I switched to computer games like Diablo II. That led me to writing. Like many my age, I loved Harry Potter, but I took it a bit further and started reading all sorts of fiction - Forgotten Realms, Dragonlance, random short stories with wizards - and enjoyed writing in those settings, though I was never consistent enough to make it anything bigger than a hobby.
 
-My grandfather worked for [Knolls Atomic Power Laboratory](https://en.wikipedia.org/wiki/Knolls_Atomic_Power_Laboratory) and was a huge nerd. He got me into science, showed me how to use a computer, what circuits were, got me interested in how the universe works.
+My grandfather worked for [Knolls Atomic Power Laboratory](https://en.wikipedia.org/wiki/Knolls_Atomic_Power_Laboratory) and was a huge nerd. He got me into science, showed me how to use a computer, what circuits were, got me interested in how the universe works. When I was very young he caught wind that I liked Back to the Future and brought me home a Flux Capacitor - it was actually just an antique light bulb he got from the lab, but it really got me excited about Physics. I wanted to travel back in time and see Dinosaurs, meet Isaac Newton and Albert Einstein, zoom into the future and see what it would be like, if humanity went transhuman or great filtered themselves before that. Actually, I broke that Flux Capacitor on a school bus while heading home one day and was convinced the time line was about to be destroyed. I think that's when my parents explained it was just a light bulb. It's ok, I still liked Physics.
 
 ## Education
 
