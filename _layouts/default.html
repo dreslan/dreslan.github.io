@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a href="{{ '/' | relative_url }}" class="site-title"><span class="site-title-d">D</span><span class="site-title-rest">reslan</span></a>
+      <nav>
+        <a href="{{ '/' | relative_url }}">blog</a>
+        <a href="{{ '/archive' | relative_url }}">archive</a>
+        <a href="{{ '/projects' | relative_url }}">projects</a>
+        <a href="{{ '/about' | relative_url }}">about</a>
+        <button class="theme-toggle" aria-label="Toggle theme" onclick="toggleTheme()">
+          <span class="theme-icon"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; {{ site.time | date: '%Y' }} <a href="{{ '/about' | relative_url }}">Dreslan</a></span>
+      <span class="footer-links">
+        <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+        <a href="https://github.com/dreslan">github</a>
+      </span>
+      <span class="footer-disclaimer">All content is written by a human — possibly reviewed by a Clanker.</span>
+      <span class="footer-license">Blog content licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Fiction is all rights reserved.</span>
+    </footer>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      var current = document.documentElement.getAttribute('data-theme');
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
+</body>
+</html>
