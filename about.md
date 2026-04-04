@@ -4,6 +4,8 @@ layout: page
 permalink: "/about/"
 ---
 
+<img src="/assets/images/profile.png" alt="Tony Coppola-Roan" class="profile-img">
+
 Online, I am Dreslan.
 
 Dreslan is just a made up name I used when I played [Diablo II](https://en.wikipedia.org/wiki/Diablo_II) as a kid in the early 2000s. I suspect it comes from [Dresden](https://en.wikipedia.org/wiki/Dresden), but can't remember anymore. Back then I was a teenager and got pulled into a Guild for people that wanted to write fiction centered on the Diablo world. I went by various names at the time, I think Tempest being the most common, but eventually moved all writing to Dreslan, which has stuck ever since.

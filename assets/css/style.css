@@ -288,6 +288,15 @@ nav a:hover {
   margin-bottom: 1.2rem;
 }
 
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+
 /* ── Archive ── */
 .archive-year {
   font-size: 1.2rem;
