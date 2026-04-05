@@ -512,6 +512,7 @@ nav a:hover {
   border: 1px solid var(--link);
   padding: 0.05em 0.4em;
   border-radius: 3px;
+  align-self: flex-start;
 }
 
 .book-shelf {
