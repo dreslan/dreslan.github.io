@@ -12,7 +12,7 @@ Dreslan (drez-lin) is a conjured name I used when I played [Diablo II](https://e
 
 Back then I was a teenager and got pulled into an online Guild for people that wanted to write fiction centered on the Diablo world. That was a thing people did back then, it was relatively popular to join a guild of some kind if you played D2 or WoW. Anyway, I went by various names at the time, I think Tempest being the most common - I even founded a guild called "The Legends of O'nyith" with some gamer friends at the time, but sadly it no longer exists. Anyway, eventually I got more serious about writing and came up with a new handle to write under (Dreslan), which has stuck ever since (even though the writing habit didn't).
 
-Offline, I am Tony Coppola-Roan. I'm 37, grew up in upstate NY, and now live in Atlanta. I have a lovely wife whom I met in college, and we have two cats.
+Offline, I am Tony Coppola-Roan. I'm <span id="age"></span>, grew up in upstate NY, and now live in Atlanta. I have a lovely wife whom I met in college, and we have two cats.
 
 About my name:
 
@@ -117,3 +117,16 @@ However, I do recruit the occasional Clanker to help with the following:
 - Telling bad jokes when I'm sad
 
 Pending an ASI takeover, I think the world needs more humans producing things for other humans, and less AI slop. So, until my atoms get repurposed by HAL 9001 I will produce my own slop for your enjoyment.
+
+<script>
+(function() {
+  var birth = new Date(1988, 11, 23);
+  var today = new Date();
+  var age = today.getFullYear() - birth.getFullYear();
+  if (today.getMonth() < birth.getMonth() ||
+      (today.getMonth() === birth.getMonth() && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  document.getElementById('age').textContent = age;
+})();
+</script>
