@@ -14,8 +14,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+collections:
+  reviews:
+    output: true
+    permalink: /books/:title/
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor
+  - scripts
+  - "*.csv"

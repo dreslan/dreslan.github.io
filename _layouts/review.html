@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <span class="review-meta">
+      {{ page.author }}
+      · {% assign full = page.rating | round %}{% for i in (1..5) %}{% if i <= full %}★{% else %}☆{% endif %}{% endfor %}
+      · {{ page.date_read | date: "%b %d, %Y" }}
+    </span>
+  </header>
+
+  <div class="book-detail">
+    {% if page.cover %}
+    <img src="{{ page.cover | relative_url }}" alt="Cover of {{ page.title }}" class="review-cover">
+    {% endif %}
+    <div class="book-info">
+      {% if page.pages %}<span class="book-info-item">{{ page.pages }} pages</span>{% endif %}
+      {% if page.publisher %}<span class="book-info-item">{{ page.publisher }}</span>{% endif %}
+      {% if page.first_published %}<span class="book-info-item">First published {{ page.first_published }}</span>{% endif %}
+      {% if page.subjects %}
+      <div class="book-subjects">
+        {% for subject in page.subjects %}
+        <span class="book-subject">{{ subject }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if page.description %}
+  <div class="post-content book-description">
+    <p>{{ page.description }}</p>
+  </div>
+  {% endif %}
+
+  {% assign body = content | strip %}
+  {% if body != "" %}
+  <div class="post-content">
+    <h2>My Review</h2>
+    {{ content }}
+  </div>
+  {% endif %}
+</article>
