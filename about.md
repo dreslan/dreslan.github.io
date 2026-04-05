@@ -6,19 +6,27 @@ permalink: "/about/"
 
 <img src="/assets/images/profile.png" alt="Tony Coppola-Roan" class="profile-img">
 
-Online, I am Dreslan.
+Hi, I'm Tony, but my online handle has been Dreslan for over two decades.
 
-Dreslan is just a made up name I used when I played [Diablo II](https://en.wikipedia.org/wiki/Diablo_II) as a kid in the early 2000s. I suspect it comes from [Dresden](https://en.wikipedia.org/wiki/Dresden), but can't remember anymore. Back then I was a teenager and got pulled into a Guild for people that wanted to write fiction centered on the Diablo world. I went by various names at the time, I think Tempest being the most common, but eventually moved all writing to Dreslan, which has stuck ever since.
+Dreslan (drez-lin) is a conjured name I used when I played [Diablo II](https://en.wikipedia.org/wiki/Diablo_II) as a kid in the early 2000s. I suspect it comes from [Dresden](https://en.wikipedia.org/wiki/Dresden), which I would have had on my mind when we were asked to read Vonnegut's Slaughterhouse 5 in middle school, but can't remember anymore for sure. 
 
-Offline, I am Tony Coppola-Roan. I'm 37, grew up in upstate NY, and now live in Atlanta.
+Back then I was a teenager and got pulled into an online Guild for people that wanted to write fiction centered on the Diablo world. That was a thing people did back then, it was relatively popular to join a guid of some kind if you played D2 or WoW. Anyway, I went by various names at the time, I think Tempest being the most common - I even founded a guild called "The Legends of O'nyith" with some gamer friends at the time, but sadly in no longer exists. Anyway, eventually I got more serious about writing and came up with a new handle to write under (Dreslan), which has stuck ever since (even though the writing habit didn't).
+
+Offline, I am Tony Coppola-Roan. I'm 37, grew up in upstate NY, and now live in Atlanta. I have a lovely wife whom I met in college, and we have two cats.
+
+About my name:
 
 In the 1920s, Tony was a common name given to immigrants coming through [Ellis Island](https://en.wikipedia.org/wiki/Ellis_Island) - short for "To NY", at least that's what I was told in grade school and it's the meme I force on other people when introducing myself, so you're welcome. In reality, [it's almost certainly not true](https://www.smithsonianmag.com/smithsonian-institution/ask-smithsonian-did-ellis-island-officials-really-change-names-immigrants-180961544/).
 
-[Coppola](https://en.wikipedia.org/wiki/Coppola_(hat)) is a type of hat from Italy, and [Roan](https://en.wikipedia.org/wiki/Roan_(horse)) is a type of horse, and comes from my wife's Irish ancestry.
+[Coppola](https://en.wikipedia.org/wiki/Coppola_(hat)) is a type of hat from Italy.
+
+[Roan](https://en.wikipedia.org/wiki/Roan_(horse)) is a type of horse, and comes from my wife's Irish ancestry. 
+
+Right, I took my wife's name. Who doesn't want to be Irish? I was hoping when I took it my liver would level up. My drinking did, my liver didn't.
 
 ## Growing up
 
-I grew up playing video games - Twisted Metal on PlayStation, Sonic the Hedgehog on a Sega Genesis, Pokemon, Mario on a Nintendo, and I can't forget Phantasy Star Online on a Dreamcast - the original online game - dial up! Eventually I switched to computer games like Diablo II. That led me to writing. Like many my age, I loved Harry Potter, but I took it a bit further and started reading all sorts of fiction - Forgotten Realms, Dragonlance, random short stories with wizards - and enjoyed writing in those settings, though I was never consistent enough to make it anything bigger than a hobby.
+I was a 90s kid and grew up playing video games on various game consoles - Twisted Metal on PlayStation, Sonic the Hedgehog on a Sega Genesis, Pokemon, Mario on a Nintendo, and I can't forget Phantasy Star Online on a Dreamcast - the original online game - dial up! Eventually I switched to computer games like Diablo II. That led me to writing. Like many my age, I loved Harry Potter, but I took it a bit further and started reading all sorts of fiction - Forgotten Realms, Dragonlance, random short stories with wizards - and enjoyed writing in those settings, though I was never consistent enough to make it anything bigger than a hobby.
 
 My grandfather worked for [Knolls Atomic Power Laboratory](https://en.wikipedia.org/wiki/Knolls_Atomic_Power_Laboratory) and was a huge nerd. He got me into science, showed me how to use a computer, what circuits were, got me interested in how the universe works. When I was very young he caught wind that I liked Back to the Future and brought me home a Flux Capacitor - it was actually just an antique light bulb he got from the lab, but it really got me excited about Physics. I wanted to travel back in time and see Dinosaurs, meet Isaac Newton and Albert Einstein, zoom into the future and see what it would be like, if humanity went transhuman or great filtered themselves before that. Actually, I broke that Flux Capacitor on a school bus while heading home one day and was convinced the time line was about to be destroyed. I think that's when my parents explained it was just a light bulb. It's ok, I still liked Physics.
 
