@@ -6,8 +6,8 @@ permalink: /books/
 
 ## Read
 
-{% assign read_books = site.reviews | where: "status", "read" | sort: "date_read" | reverse %}
-{% assign reviews_by_year = read_books | group_by_exp: "review", "review.date_read | date: '%Y'" %}
+{% assign read_books = site.reviews | where: "status", "read" %}
+{% assign reviews_by_year = read_books | group_by_exp: "review", "review.date_read | date: '%Y'" | sort: "name" | reverse %}
 {% for year in reviews_by_year %}
 <h3 class="archive-year">{{ year.name }}</h3>
 <div class="book-shelf">
