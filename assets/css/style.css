@@ -69,6 +69,7 @@ html {
   color: var(--text);
   font-family: var(--font);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 a {
@@ -135,6 +136,7 @@ main {
 nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1.2rem;
   font-size: 0.9rem;
 }
@@ -610,6 +612,8 @@ nav a:hover {
 
 .book-filters {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
@@ -845,10 +849,17 @@ nav a:hover {
 }
 
 /* ── Responsive ── */
-@media (max-width: 500px) {
+@media (max-width: 640px) {
   .site-header {
     flex-direction: column;
     gap: 0.5rem;
+  }
+  nav {
+    gap: 0.8rem;
+    font-size: 0.85rem;
+  }
+  .review-cover {
+    max-width: 120px;
   }
   .post-list li {
     flex-direction: column;
@@ -859,5 +870,15 @@ nav a:hover {
     float: none !important;
     margin: 1.2rem auto !important;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  nav {
+    gap: 0.6rem;
+    font-size: 0.8rem;
+  }
+  .review-cover {
+    max-width: 100px;
   }
 }
