@@ -288,6 +288,15 @@ nav a:hover {
   margin-bottom: 1.2rem;
 }
 
+.page ul, .page ol {
+  margin: 0 0 1.2rem 1.2rem;
+  padding-left: 0;
+}
+
+.page li {
+  margin-bottom: 0.3rem;
+}
+
 .profile-img {
   width: 140px;
   height: 140px;
