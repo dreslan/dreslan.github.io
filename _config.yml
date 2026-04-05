@@ -25,4 +25,5 @@ exclude:
   - README.md
   - vendor
   - scripts
+  - docs
   - "*.csv"
