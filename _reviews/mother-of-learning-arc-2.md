@@ -1,9 +1,10 @@
 ---
-layout: "review"
+layout: review
+status: read
 title: "Mother of Learning: ARC 2"
 author: "Domagoj Kurmaić"
 rating: 5
-date_read: "2022-09-11"
+date_read: 2022-09-11
 cover: "/assets/images/books/mother-of-learning-arc-2.jpg"
 subjects:
   - "Fiction, fantasy, general"

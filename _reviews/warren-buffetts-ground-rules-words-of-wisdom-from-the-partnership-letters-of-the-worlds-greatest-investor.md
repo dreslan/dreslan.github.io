@@ -1,5 +1,6 @@
 ---
 layout: "review"
+status: "read"
 title: "Warren Buffett's Ground Rules: Words of Wisdom from the Partnership Letters of the World's Greatest Investor"
 author: "Jeremy C. Miller"
 rating: 5

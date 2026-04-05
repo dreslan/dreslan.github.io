@@ -1,9 +1,10 @@
 ---
-layout: "review"
+layout: review
+status: read
 title: "Operation Bounce House"
 author: "Matt Dinniman"
 rating: 5
-date_read: "2026-02-17"
+date_read: 2026-02-17
 cover: "/assets/images/books/operation-bounce-house.jpg"
 description: "All New Sonoran colonist Oliver Lewis ever wanted to do is run the family ranch and keep their aging fleet of intelligent agriculture bots ticking.  But now the colossal Apex Corporation has been hired to commence an “eviction action” – exterminate all life on New Sonora in preparation for a reboot. And they charge bored Earthers for the opportunity to design their own war machines, remotely pilot them, and make it a game.  The game is called Operation Bounce House . . .  And New Sonora is it..."
 subjects:

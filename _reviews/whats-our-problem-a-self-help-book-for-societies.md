@@ -1,9 +1,10 @@
 ---
-layout: "review"
+layout: review
+status: read
 title: "What's Our Problem?: A Self-Help Book for Societies"
 author: "Tim Urban"
 rating: 0
-date_read: "2026-01-25"
+date_read: 2026-01-25
 cover: "/assets/images/books/whats-our-problem-a-self-help-book-for-societies.jpg"
 subjects:
   - "Political science"

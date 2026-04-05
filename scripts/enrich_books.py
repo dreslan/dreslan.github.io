@@ -149,7 +149,7 @@ def write_frontmatter(fm: dict, body: str) -> str:
     """Serialize frontmatter dict + body back to markdown."""
     lines = ["---"]
     # Preserve key order
-    key_order = ["layout", "title", "author", "rating", "date_read", "cover",
+    key_order = ["layout", "status", "title", "author", "rating", "date_read", "cover",
                  "description", "subjects", "pages", "publisher", "first_published"]
     written = set()
     for key in key_order:

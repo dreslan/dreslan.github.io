@@ -1,5 +1,6 @@
 ---
 layout: "review"
+status: "read"
 title: "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All"
 author: "Eliezer Yudkowsky"
 rating: 5

@@ -1,9 +1,10 @@
 ---
-layout: "review"
+layout: review
+status: read
 title: "Fight Oligarchy"
 author: "Bernie Sanders"
 rating: 3
-date_read: "2026-01-25"
+date_read: 2026-01-25
 cover: "/assets/images/books/fight-oligarchy.jpg"
 pages: 160
 publisher: "Crown Publishing Group"

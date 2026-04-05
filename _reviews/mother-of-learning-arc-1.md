@@ -1,9 +1,10 @@
 ---
-layout: "review"
+layout: review
+status: read
 title: "Mother of Learning: ARC 1"
 author: "Domagoj Kurmaić"
 rating: 5
-date_read: "2022-09-09"
+date_read: 2022-09-09
 cover: "/assets/images/books/mother-of-learning-arc-1.jpg"
 publisher: "Wraithmarked Creative, LLC"
 first_published: "2021"

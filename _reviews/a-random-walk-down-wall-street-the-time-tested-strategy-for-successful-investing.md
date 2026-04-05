@@ -1,5 +1,6 @@
 ---
 layout: "review"
+status: "read"
 title: "A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing"
 author: "Burton G. Malkiel"
 rating: 3

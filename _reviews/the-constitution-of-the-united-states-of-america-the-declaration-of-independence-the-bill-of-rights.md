@@ -1,5 +1,6 @@
 ---
 layout: "review"
+status: "read"
 title: "The Constitution of the United States of America: The Declaration of Independence, The Bill of Rights"
 author: "Founding Fathers"
 rating: 0

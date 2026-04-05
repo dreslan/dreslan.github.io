@@ -1,9 +1,10 @@
 ---
-layout: "review"
+layout: review
+status: read
 title: "The Giver (The Giver, #1)"
 author: "Lois Lowry"
 rating: 3
-date_read: "2012-10-07"
+date_read: 2012-10-07
 cover: "/assets/images/books/the-giver-the-giver-1.jpg"
 description: "At the age of twelve, Jonas, a young boy from a seemingly utopian, futuristic world, is singled out to receive special training from The Giver, who alone holds the memories of the true joys and pain of life."
 subjects:
