@@ -162,6 +162,78 @@ nav a:hover {
   content: var(--toggle-icon);
 }
 
+/* ── Home sidebar ── */
+.home-sidebar {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home-aside-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.home-aside-title {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}
+
+.home-aside-link {
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+}
+
+.home-aside-link:hover {
+  color: var(--link);
+}
+
+.home-aside-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.4rem 0;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home-aside-item:hover .home-aside-item-title {
+  color: var(--link);
+}
+
+.home-aside-cover {
+  width: 36px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.home-aside-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.home-aside-item-title {
+  font-size: 0.9rem;
+  color: var(--text-heading);
+  transition: color 0.15s;
+}
+
+.home-aside-item-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 /* ── Post list (home) ── */
 .post-list {
   list-style: none;
