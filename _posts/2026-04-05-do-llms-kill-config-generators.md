@@ -3,7 +3,7 @@ layout: post
 title: "Do LLMs Kill Config Generators?"
 date: 2026-04-05
 ---
-I once wrote a blog post about how to create `.gitignore` files by using https://gitignore.io. For those that haven't used it before, it's a website and api that lets you compose a `.gitignore` for a project by listing the technologies your project will use (either in their website or by curl'ing the service on the CLI), and it spits out a `.gitignore` accordingly. 
+I once wrote a blog post about how to create `.gitignore` files by using [gitignore.io](https://gitignore.io). For those that haven't used it before, it's a website and api that lets you compose a `.gitignore` for a project by listing the technologies your project will use (either in their website or by curl'ing the service on the CLI), and it spits out a `.gitignore` accordingly. 
 
 This service did a pretty good job, and I would routinely reach for it when starting new projects. I liked it; it was an improvement from copy-pasting example snippets from various other `.gitignore` files found on GitHub.
 
