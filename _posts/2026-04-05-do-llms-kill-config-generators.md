@@ -25,9 +25,9 @@ I honestly don't know, but I can speculate based on my own usage of LLMs that th
 - Using a tool will save a meaningful number of tokens (you can imagine having an LLM write a complicated terraform module when it could use an existing one, or a Github workflow when you know you have an existing one that's basically perfect, etc)
 - You need the deterministic output of a tool over an LLM for a config
 
-But I'd push back on that last one. Chatting with Opus, the example given were IAM policies that should be generated according to company cloud policies. A generator ensures your IAM policies are created properly and include the right things.
+But I'd push back on that last one. Chatting with my own friendly neighborhood Clanker (Opus 4.6), the example it gave was generating IAM policies according to company cloud requirements. In this situation, a generator ensures your IAM policies are created properly and include the right things (AdministratorAccess for the win!).
 
-But that's not something I'd use a generator for, or ever have, really - that's more like validation. And I do still need to validate config. I need to validate Dockerfiles, Github workflows, IAM policies, terraform modules (at least the output of a plan). 
+But that's not something I'd use a generator for, or ever have, really - that's more like validation. And I do still need to validate config. I need to validate Dockerfiles, Github workflows, IAM policies, terraform modules (at least the output of a plan). There's a bigger thought here - that a lot of my work now is spent steering an LLM at the start of a task and validating its outputs at the end - but that's meta commentary for another post.
 
 So does that mean the value for devs looking to build useful tools in the config space is moving from generators to validators?
 
