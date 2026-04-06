@@ -25,7 +25,7 @@ gitignore.io help:
 
 Let's use the api to create some *.gitignore* files for a project.
 
-## macos
+## MacOS
 
 If the project will be developed on MacOS, let's make sure to ignore the annoying files it generates automatically:
 
@@ -77,7 +77,7 @@ Temporary Items
 
 Pretty neat! But you probably won't just be concerned with ignoring MacOS generated files. Let's say we are building a website using the static site builder called **hugo** and we want to include this as well.
 
-## macos + hugo
+## MacOS + Hugo
 
 ```
 $ curl -s https://www.toptal.com/developers/gitignore/api/macos,hugo
@@ -144,7 +144,7 @@ Notice that the result is the *composition* of a MacOS snippet and a Hugo snippe
 
 Okay, next, let's say our hugo site will be making use of some Nodejs modules, and include a section for Node.
 
-## macos + hugo + node
+## MacOS + Hugo + Node
 
 ```
 $ curl -s https://www.toptal.com/developers/gitignore/api/macos,hugo,node
@@ -351,7 +351,7 @@ A file with a section for MacOS, Hugo, and Node!
 
 Oh, let's add Go, too, since it's possible to add go modules to a Hugo site:
 
-## macos + hugo + node + go
+## MacOS + Hugo + Node + Go
 
 ```
 # Created by https://www.toptal.com/developers/gitignore/api/macos,hugo,go
