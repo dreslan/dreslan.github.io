@@ -1092,13 +1092,16 @@ nav a:hover {
   margin-bottom: 0;
 }
 
+.linktree-name-d {
+  color: var(--link);
+}
+
 .linktree-aka {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--link);
   letter-spacing: 0.05em;
   margin-top: -0.3rem;
   margin-bottom: 0.2rem;
-  opacity: 0.6;
 }
 
 .linktree-tagline {
