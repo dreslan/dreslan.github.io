@@ -1092,16 +1092,28 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.linktree-name-d {
+.linktree-name span {
+  transition: color 0.15s ease;
+}
+
+.linktree-name span.gold {
   color: var(--link);
 }
 
 .linktree-aka {
   font-size: 0.8rem;
-  color: var(--link);
+  color: var(--text-muted);
   letter-spacing: 0.05em;
   margin-top: -0.3rem;
   margin-bottom: 0.2rem;
+}
+
+.linktree-aka span {
+  transition: color 0.15s ease;
+}
+
+.linktree-aka span.gold {
+  color: var(--link);
 }
 
 .linktree-tagline {

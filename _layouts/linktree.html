@@ -32,6 +32,30 @@
       document.documentElement.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
     }
+
+    (function() {
+      var nameSpans = document.querySelectorAll('.linktree-name span');
+      var akaSpans = document.querySelectorAll('.linktree-aka span');
+      if (nameSpans.length < 2 || akaSpans.length < 2) return;
+      var step = 80;
+      var hold = 180;
+
+      // Single wave — both lines ripple left to right simultaneously
+      // Dreslan: flash and fade
+      for (var i = 0; i < nameSpans.length; i++) {
+        (function(el, t) {
+          setTimeout(function() { el.classList.add('gold'); }, t);
+          setTimeout(function() { el.classList.remove('gold'); }, t + hold);
+        })(nameSpans[i], i * step);
+      }
+
+      // aka Tony: each letter locks gold as the wave hits
+      for (var i = 0; i < akaSpans.length; i++) {
+        (function(el, t) {
+          setTimeout(function() { el.classList.add('gold'); }, t);
+        })(akaSpans[i], i * step);
+      }
+    })();
   </script>
 </body>
 </html>
