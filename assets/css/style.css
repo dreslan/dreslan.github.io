@@ -1062,3 +1062,83 @@ nav a:hover {
     max-width: 100px;
   }
 }
+
+/* ── Linktree ── */
+.linktree-container {
+  justify-content: center;
+  max-width: 480px;
+}
+
+.linktree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0 2rem;
+}
+
+.linktree-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.linktree-name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.3rem;
+}
+
+.linktree-tagline {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+}
+
+.linktree-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.linktree-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.linktree-link:hover {
+  border-color: var(--link);
+  background: var(--bg-code);
+  color: var(--text);
+}
+
+.linktree-link-name {
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.linktree-link-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.linktree-footer {
+  margin-top: 3rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}

@@ -1,50 +1,25 @@
 ---
-layout: default
+layout: linktree
+title: Dreslan
 ---
-<ul class="post-list">
-  {% for post in site.posts %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
 
-{% assign now_reading = site.reviews | where: "status", "now-reading" %}
-{% assign sorted_bits = site.bits | sort: "date" | reverse %}
-{% if now_reading.size > 0 or sorted_bits.size > 0 %}
-<div class="home-sidebar">
-  {% if now_reading.size > 0 %}
-  <div class="home-aside">
-    <div class="home-aside-header">
-      <span class="home-aside-title">Now Reading</span>
-      <a href="{{ '/books' | relative_url }}" class="home-aside-link">&rarr;</a>
-    </div>
-    {% for book in now_reading limit:3 %}
-    <a href="{{ book.url | relative_url }}" class="home-aside-item">
-      {% if book.cover %}<img src="{{ book.cover | relative_url }}" alt="" class="home-aside-cover">{% endif %}
-      <div class="home-aside-info">
-        <span class="home-aside-item-title">{{ book.title }}</span>
-        <span class="home-aside-item-meta">{{ book.author }}</span>
-      </div>
-    </a>
-    {% endfor %}
+<div class="linktree">
+  <div class="linktree-header">
+    <h1 class="linktree-name">Dreslan</h1>
+    <p class="linktree-tagline">writer &middot; engineer</p>
   </div>
-  {% endif %}
-
-  {% if sorted_bits.size > 0 %}
-  <div class="home-aside">
-    <div class="home-aside-header">
-      <span class="home-aside-title">Recent Bits</span>
-      <a href="{{ '/bits' | relative_url }}" class="home-aside-link">&rarr;</a>
-    </div>
-    {% for bit in sorted_bits limit:3 %}
-    <a href="{{ bit.url | relative_url }}" class="home-aside-item">
-      <span class="bit-type-badge bit-type-{{ bit.type }}">{{ bit.type }}</span>
-      <span class="home-aside-item-title">{{ bit.title }}</span>
+  <div class="linktree-links">
+    <a href="https://tonybytes.net" class="linktree-link">
+      <span class="linktree-link-name">Tony Bytes</span>
+      <span class="linktree-link-desc">blog</span>
     </a>
-    {% endfor %}
+    <a href="https://onyith.net" class="linktree-link">
+      <span class="linktree-link-name">Legends of O'nyith</span>
+      <span class="linktree-link-desc">fiction</span>
+    </a>
+    <a href="https://github.com/dreslan" class="linktree-link">
+      <span class="linktree-link-name">GitHub</span>
+      <span class="linktree-link-desc">code</span>
+    </a>
   </div>
-  {% endif %}
 </div>
-{% endif %}

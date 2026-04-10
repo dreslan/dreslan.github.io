@@ -1,5 +1,5 @@
 title: Dreslan
-description: Personal commentary on life, society, and the times.
+description: Writer and engineer.
 url: https://dreslan.com
 baseurl: ""
 
@@ -29,4 +29,5 @@ exclude:
   - vendor
   - scripts
   - docs
+  - docker-compose.yml
   - "*.csv"

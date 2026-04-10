@@ -10,7 +10,7 @@ Hi, welcome to my site, which is named after the handle I used to write under as
 
 Dreslan (drez-lin) is a handle I made up for [Diablo II](https://en.wikipedia.org/wiki/Diablo_II) as a kid in the early 2000s. It probably comes from [Dresden](https://en.wikipedia.org/wiki/Dresden) — we were reading Vonnegut's [Slaughterhouse-Five](https://en.wikipedia.org/wiki/Slaughterhouse-Five) in middle school around that time — but I can't say for sure anymore.
 
-D2 led me into online guilds where people wrote fiction set in the Diablo world. I went by a few names back then (Tempest was the most common — I even founded a guild called "The Legends of O'nyith," now sadly lost to the internet). Eventually I got more serious about writing and came up with Dreslan as a proper pen name. The handle stuck, even though the writing habit petered out in the intervening decades.
+D2 led me into online guilds where people wrote fiction set in the Diablo world. I went by a few names back then (Tempest was the most common — I even founded a guild called "The Legends of O'nyith," ~~now sadly lost to the internet~~ [or has it?!](https://onyith.net)). Eventually I got more serious about writing and came up with Dreslan as a proper pen name. The handle stuck, even though the writing habit petered out in the intervening decades.
 
 Offline, I'm a nearly middle-aged Italian guy named Tony, and I have the sterotrypical tendencies to back it up: I can spin pizza dough and make pasta from eggs and flour and am picky about red wines and espresso. 
 
